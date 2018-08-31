@@ -172,19 +172,17 @@ function checkCollitions(){
     }
   })
 
-  addEventListener('touchstart', function (e) {
-    if(e.touches === [0] && flappy.y > 30){
+  window.addEventListener('touchstart', function (e) {
+    if(e.touches [0] && flappy.y > 30){
       flappy.y -= 60
+    }
+    if(e.touch [0]){
+      start()
+    }
+    if(e.touch [0]){
       start()
       board.music.play()
     }
-    /*if(e.touch === [0]){
-      start()
-    }
-    if(e.touch = [0]){
-      start()
-      board.music.play()
-    }*/
     })
     
 
