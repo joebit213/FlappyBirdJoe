@@ -172,7 +172,7 @@ function checkCollitions(){
     }
   })
 
-  window.addEventListener('touchstart', function (e) {
+  window.addEventListener('click', function (e) {
     if(e.touches === [0] && flappy.y > 30){
       flappy.y -= 60
     }
