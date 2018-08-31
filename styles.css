@@ -1,0 +1,17 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background: rgb(63, 255, 53)
+}
+
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+
